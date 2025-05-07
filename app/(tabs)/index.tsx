@@ -7,8 +7,8 @@ export default function HomeScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Home screen</Text>
-      <Button title="Go to Post Detail (id: 123)" onPress={() => router.push('/(tabs)/(home)/post/post123')} />
-      <Button title="Open Modal" onPress={() => router.push('/(tabs)/(home)/modal')} />
+      <Button title="Go to Post Detail (id: 123)" onPress={() => router.push('/post/post123')} />
+      <Button title="Open Modal" onPress={() => router.push('/modal')} />
     </View>
   );
 }
